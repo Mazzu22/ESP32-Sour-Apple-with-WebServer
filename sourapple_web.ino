@@ -93,8 +93,8 @@ String SendHTML(uint8_t led1stat){
   ptr +="</head>\n";
   ptr +="<body>\n";
   ptr +="<h1>ESP32 Sour Apple</h1>\n";
-  ptr +="<h3>Using Access Point Mode</h3>\n";
-  ptr +="<p>by SERRINH0</p>\n";
+  ptr +="<h3>Using Access Point Mode</h3>";
+  ptr +="<p>by SERRINH0</p>\n\n";
   
    if(led1stat)
   {ptr +="<p>Status: ON</p><a class=\"button button-off\" href=\"/off\">OFF</a>\n";}
