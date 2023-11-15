@@ -5,7 +5,7 @@
 NimBLEAdvertising *pAdvertising;
 
 /* Put your SSID & Password */
-const char* ssid = "Apple di Esp";  // Enter SSID here
+const char* ssid = "Iphone di Esp";  // Enter SSID here
 const char* password = "Canguro.15";  //Enter Password here
 
 /* Put IP Address details */
